@@ -69,7 +69,7 @@ console.log('New Bag:', CandyBag.bag)
 
 console.log(this)
 
-class myCandyBag {
+class MyCandyBag {
     constructor(candy) {
         //SETUP (initializing variables/data and general setup)
         this.bag = candy
@@ -82,8 +82,8 @@ class myCandyBag {
 
 //"new" creates a new instance of hte class with its own bag and methods that work on it
 //the values in the parentheses when creating a class go to the constructor method
-let elissasBagOfCandy = new myCandyBag(['skittles', 'm&ms'])
-let aaronsBagOfCandy = new myCandyBag(['snickers', 'reeses'])
+let elissasBagOfCandy = new MyCandyBag(['skittles', 'm&ms'])
+let aaronsBagOfCandy = new MyCandyBag(['snickers', 'reeses'])
 
 console.log(elissasBagOfCandy)
 console.log(aaronsBagOfCandy)
